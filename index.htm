@@ -11,31 +11,42 @@
 </head>
 
 <body>
-   <div class="container row">
+   <div class="lctprogram text-center py-5">
        
-      
-    <div class="Amount mt-3">
-            <span>Amount</span>
-            <input id="Amnt" type="text">
-    
-        </div>
-        <div class="Duration mt-3">
-            <span>Duration</span>
-            <input id="Drtn" type="text">
-    
-        </div>
-    
-        <div class="Percent mt-3">
-            <span>Percent</span>
-            <input id="Percent" type="text">
-    
-        </div>
-        <span>Monthly fee</span> <span id="result"></span>
+      <div class="common justify-content-around text-center">
+
+         <h1>Loan Calculator</h1>
+          <div class="Amount mt-3 fw-bold">
+              <input  id="Amnt" type="text"     >
+              <span >Amount </span>
           
-        <div class="Calculate mt-3 mx-5 px-5">
-            <button onclick="Calculate()">Calculate</button>
-    
-        </div>
+              </div>
+              <div class="Duration mt-3 fw-bold">
+                  <input  id="Drtn" type="text">
+                  <span  >Duration</span>
+          
+              </div>
+          
+              <div class="Percent mt-3 fw-bold">
+                  <input  id="Percent"  type="text">
+                  <span  >Percent</span>
+          
+              </div>
+             
+              <div class="mfee mt-3">
+                  
+                  <span class="fw-bold" >Monthly Payment:
+                   
+                       <span id="result"></span>
+                   </span> 
+              </div> 
+                  
+                
+              <div class="Calculate mt-3 mx-5 px-5">
+                  <button onclick="Calculate()">Calculate</button>
+          
+              </div>
+      </div>
 
    </div> 
 

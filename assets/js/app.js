@@ -3,8 +3,10 @@ function Calculate(){
     var duration = document.getElementById("Drtn").value;
     var percent = document.getElementById("Percent").value;
     
-    var percentFee = (amount*percent)/100
-    var monthlyFee = (parseFloat(amount)+parseFloat(percentFee))/duration
+    var percentPayment = (amount*percent)/100
+    var monthlyPayment = (parseFloat(amount)+parseFloat(percentPayment))/duration
     
-    var result = document.getElementById("result").innerHTML = monthlyFee
+    var result = document.getElementById("result").innerHTML = monthlyPayment
 }
+
+

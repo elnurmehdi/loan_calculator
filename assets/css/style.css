@@ -4,4 +4,21 @@
     box-sizing: border-box;
 }
 
+.Calculate button{
+    margin: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px 4.7rem;
+    background-color:#ffc628;
+    color:#000007;
+}
+
+
+
+.lctprogram{
+    background-color: #dbd9de;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
 
