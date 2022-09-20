@@ -6,7 +6,7 @@ function Calculate(){
     var percentPayment = (amount*percent)/100
     var monthlyPayment = (parseFloat(amount)+parseFloat(percentPayment))/duration
     
-    var result = document.getElementById("result").innerHTML = monthlyPayment
+    var result = document.getElementById("result").innerHTML = monthlyPayment.toFixed(2)
 }
 
 
